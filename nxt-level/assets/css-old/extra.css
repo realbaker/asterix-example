@@ -1,0 +1,313 @@
+
+#search-filter-results-1347 {
+  margin-bottom: 120px;
+}
+
+.allied-network-content .entry-content .left {
+  float: left;
+}
+
+.allied-network-content .entry-content .right {
+  float: right;
+}
+
+.allied-network-content .entry-content .right,
+.allied-network-content .entry-content .left {
+  width: 48%;
+}
+
+.allied-network-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  background-color: #e8e7e7;
+}
+
+.allied-network-content .entry-content {
+  margin-top: 20px;
+}
+
+.allied-network-training-title {
+  width: 100%;
+}
+
+.allied-network-training-title,
+.allied-network-utilities-title {
+  font-weight: 600;
+}
+
+.allied-network-utilities ul {
+  margin-top: 0px;
+  padding-left: 20px;
+}
+
+.allied-network-content .list__tag--dark {
+  background-color: #ffc22c;
+  color: #7e766b;
+  font-weight: 600;
+}
+
+.allied-network-email:before {
+  content: "";
+  display: block;
+  background: url('../img/envelope.png') no-repeat;
+  width: 22px;
+  height: 16px;
+  float: left;
+  margin: 3px 10px 0 0;
+}
+
+.allied-network-phone:before {
+  content: "";
+  display: block;
+  background: url('../img/phone.png') no-repeat;
+  width: 26px;
+  height: 20px;
+  float: left;
+  margin: 0 6px 0 0;
+}
+
+.allied-network-address:before {
+  content: "";
+  display: block;
+  background: url('../img/marker-map.png') no-repeat;
+  width: 26px;
+  height: 20px;
+  float: left;
+  margin: 0 6px 0 0;
+}
+
+.allied-network-address-city {
+  margin-left: 32px;
+}
+
+.allied-network-content .allied-network-email,
+.allied-network-content .allied-network-phone {
+  margin-bottom: 10px;
+}
+
+.allied-network-address {
+}
+.allied-network-address-map {
+  position: relative;
+  margin-left: 32px;
+  overflow: hidden;
+  height: 0;
+}
+.allied-network-address:hover .allied-network-address-map {
+  height: auto;
+  overflow: visible;
+}
+
+.allied-network-address-iframe-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  -webkit-transform: translateZ(10);
+  transform: translateZ(10);
+}
+.allied-network-address-map .caret {
+  display: block;
+  margin-left: 15%;
+  width: 0px;
+  height: 0px;
+  border-top: 0px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #b2b1ae;
+}
+.allied-network-address-map .close {
+  display: none;
+}
+.allied-network-address-map iframe {
+  border: 2px #b2b1ae solid;
+  width: 400px;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+}
+
+@media only screen and (max-width : 568px) {
+  .allied-network-content .entry-content .right {
+    float: left;
+  }
+  .allied-network-content .entry-content .right,
+  .allied-network-content .entry-content .left {
+    width: 100%;
+  }
+
+  .allied-network-address {
+    margin-bottom: 10px;
+  }
+
+  .allied-network-address:hover .allied-network-address-map {
+    overflow: hidden;
+    height: 0;
+  }
+  .allied-network-address.open-map .allied-network-address-map {
+    height: auto;
+    overflow: visible;
+  }
+  .allied-network-address .allied-network-address-iframe-wrapper {
+    position: relative;
+  }
+  .allied-network-address iframe {
+    width: 100%;
+    height: 200px;
+  }
+  .allied-network-address-map .close {
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 2px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .course-listing__image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#search-filter-results-218 .list__item .read-more-wrapper {
+  clear: both;
+}
+
+
+
+/**
+ * Gravity Forms style class.
+ */
+.pane--gravityform .gform_wrapper {
+    margin: 0;
+}
+
+.pane--gravityform .gform_wrapper div.validation_error,
+.pane--gravityform .gform_wrapper div.validation_message {
+  font-size: 1em;
+  font-weight: normal;
+  padding: 0.5em 0;
+}
+
+.pane--gravityform .gform_wrapper li.gfield.gfield_error {
+  background: none;
+  border: none;
+}
+
+.pane--gravityform .gform_wrapper li.gfield.gfield_error input[type=text] {
+  border: 2px solid #b30909;
+}
+
+.pane--gravityform .gform_wrapper .top_label .gfield {
+  margin: 1em 0;
+}
+
+.pane--gravityform .gform_wrapper .top_label .gfield .gfield_label {
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.pane--gravityform .gform_wrapper .gfield input,
+.pane--gravityform .gform_wrapper .gfield textarea {
+  color: #000;
+  padding: 9px 10px;
+  border: none;
+  background: rgba(255,255,255,0.6);
+  font-size: 15px;
+  font-size: .9375rem;
+}
+.pane--gravityform .gform_wrapper .gfield input + label,
+.pane--gravityform .gform_wrapper .gfield textarea + label {
+  margin-bottom: 0;
+}
+.pane--gravityform .gform_wrapper .gfield .gfield_description {
+  line-height: 1.25em;
+}
+
+.pane--gravityform .gform_wrapper .gfield.gfield_error {
+  margin-top: 0.5em;
+  margin-bottom: 0 !important;
+}
+
+.pane--gravityform .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container,
+.pane--gravityform .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.gfield_description,
+.pane--gravityform .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label,
+.pane--gravityform .gform_wrapper li.gfield.gfield_error.gfield_contains_required fieldset legend.gfield_label {
+  margin-left: 0;
+}
+
+.pane--gravityform .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label,
+.pane--gravityform .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container {
+  margin-top: .375em;
+}
+
+.gform_wrapper .top_label .gfield_description.validation_message,
+.gform_wrapper .gfield_description.validation_message {
+  padding-right: 0;
+  margin-right: 0;
+  font-size: 0.875em;
+}
+
+.pane--gravityform .gform_wrapper .gform_footer {
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+.pane--gravityform .gform_wrapper .gform_footer input[type=submit] {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 1;
+  width: 100%;
+  background: #3f3f3f;
+  color: #FFF !important;
+  display: block;
+  margin-top: 20px;
+  padding: 10px 0 !important;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.nwln-slider img {
+  width: 100%;
+  height: 420px
+}
+
+/* Layout on desktop */
+@media screen and (max-width: 700px) {
+  .nwln-slider img {
+    width: 100%;
+    height: 360px
+  }
+}
+
+/* Layout on desktop */
+@media screen and (max-width: 450px) {
+  .nwln-slider img {
+    width: 100%;
+    height: 300px
+  }
+}
+
+/* Layout on desktop */
+@media screen and (max-width: 400px) {
+  .nwln-slider img {
+    width: 100%;
+    height: 260px
+  }
+}

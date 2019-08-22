@@ -1,0 +1,212 @@
+.page-content .gform_wrapper .gfield_radio li input {
+  margin-left: 3px;
+}
+
+.page-content .gform_wrapper  .field_sublabel_below {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.page-content .gform_wrapper ul.gfield_radio li input[type="radio"]:checked+label,
+.page-content .gform_wrapper ul.gfield_checkbox li input[type="checkbox"]:checked+label {
+  font-weight: 600;
+}
+
+body .page-content .gform_wrapper label.gfield_label + div.ginput_container {
+  margin-top: .2em;
+}
+
+body .page-content .gform_wrapper label.gfield_label {
+  font-weight: bold;
+}
+
+body .page-content .gform_wrapper label {
+  font-size: 16px;
+}
+
+.ginput_container_repeater-end {
+  border-top: 1px solid #000;
+  padding-top: 10px
+}
+
+.ginput_container_repeater {
+  border-top: 1px solid #000;
+}
+
+.gform_wrapper ul.field_group_close {
+  margin: -20px 0 -15px 0 !important;
+  width: 100%;
+  clear: both;
+}
+
+.gform_wrapper ul.horizontal_group {
+  padding-left: 0px;
+  margin: -20px 0 -10px 0 !important;
+  width: 100%;
+  float: left;
+}
+
+.gform_wrapper ul.horizontal_group li {
+  float: left;
+  clear: none !important;
+  min-width: 20%;
+  max-width: 20%;
+  margin-right: 1%;
+}
+
+.gform_wrapper ul.horizontal_group li label {
+  font-size: 14px;
+}
+
+.gform_wrapper ul.horizontal_group li input.medium {
+  width: 90%!important;
+}
+
+body .page-content .gfield_html ul {
+  margin: 1em 0 1em 1.5em !important;
+}
+
+.fieldgroup_extra_li {
+  display: none;
+}
+
+.add_sub .gf_repeater_add::after {
+  content: 'Add Subcontractor';
+  font-size: 12px;
+  position: relative;
+  top: -7px;
+  margin-left: 5px;
+}
+
+.add_sub .gf_repeater_remove::after {
+  content: 'Remove Subcontractor';
+  font-size: 12px;
+  position: relative;
+  top: -7px;
+  margin-left: 5px;
+}
+
+.add_sub .gf_repeater_remove {
+  margin-left: 10px;
+}
+
+.add_ref .gf_repeater_add::after {
+  content: 'Add Reference';
+  font-size: 12px;
+  position: relative;
+  top: -7px;
+  margin-left: 5px;
+}
+
+.add_ref .gf_repeater_remove::after {
+  content: 'Remove Reference';
+  font-size: 12px;
+  position: relative;
+  top: -7px;
+  margin-left: 5px;
+}
+
+.add_ref .gf_repeater_remove {
+  margin-left: 10px;
+}
+
+.section_html {
+  border-bottom: 1px solid #CCC !important;
+  padding: 0 0 .5em 0;
+  margin: 1.8em 0;
+  width: 100%;
+  display: block;
+}
+
+.gform_wrapper .gform_page_footer .gform_button {
+  clear: both;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 3px 7px;
+  background: #fff;
+  color: #56575c;
+  border: 1px solid #e5e5e5
+}
+
+.gform_wrapper .gform_page_footer .button.gform_previous_button,
+.gform_wrapper .gform_page_footer .button.gform_next_button {
+  clear: both;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 3px 7px;
+  background: #fff;
+  color: #56575c;
+  border: 1px solid #e5e5e5
+}
+
+.gform_wrapper .gform_page_footer input[type=submit] {
+  background: #3086d3;
+  color: #fff;
+}
+
+.gform_wrapper .gform_page_footer input[type=submit]:hover {
+  background: #205f97;
+  color: #fff;
+}
+
+.gform_wrapper .gform_page_footer .button.gform_next_button {
+  background: #3086d3;
+  color: #fff;
+}
+
+.gform_wrapper .gform_page_footer .button.gform_next_button:hover {
+  background: #205f97;
+  color: #fff;
+}
+
+.gform_wrapper .gform_page_footer .button.gform_previous_button:hover {
+  background: #424242;
+  border-color: #303030;
+  color: #fff
+}
+
+.gfield_required {
+  display: none;
+}
+
+.gform_cancel_alert {
+  cursor: pointer;
+}
+
+.gform_wrapper .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  height: 32px !important;
+}
+
+.gform_wrapper .chosen-container-multi .chosen-choices {
+  height: 32px !important;
+}
+
+.gform_wrapper .chosen-container-multi .chosen-choices li.search-choice {
+  margin: 5px 2px 5px 5px !important;
+}
+
+.gform_wrapper ul.horizontal_group li:nth-child(2) {
+  min-width: 40%;
+  max-width: 40%
+}
+
+.gform_wrapper ul.horizontal_group li label {
+  font-size: 12px;
+}
+
+#gform_1 #field_1_1 .validation_message {
+  display: block !important;;
+}
+
+.searchandfilter .jcf-list-content ul {
+  display: none;
+}
+
+.searchandfilter .chosen-choices {
+  min-height: 39px;
+}
+
+.searchandfilter .chosen-choices .chosen-search-input {
+  font-size: 17px !important;
+  min-height: 34px;
+}
